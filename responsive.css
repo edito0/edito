@@ -1,0 +1,173 @@
+@media only screen and (max-width: 800px) {
+  /* FOR NAVIGATION BAR AND Header */
+  .burger {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+  }
+
+  .line1-anim {
+    transform: rotate(45deg) translate(12px, 1px);
+  }
+
+  .line3-anim {
+    transform: rotate(-45deg) translate(12px, -1px);
+  }
+  .line2-anim {
+    opacity: 0%;
+    transform: translate(7px);
+  }
+
+  .logo-resp {
+    display: block;
+  }
+
+  .logo-resp-resp {
+    display: none;
+  }
+
+  .logo-resp img {
+    margin: 2px 40px;
+    height: 3rem;
+  }
+  .nav-bar {
+    height: 15.5rem;
+    position: relative;
+  }
+
+  .nav-d-none {
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0%;
+  }
+
+  .nav-h {
+    height: 3.5rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    padding: 10px;
+    position: static;
+  }
+
+  .item {
+    margin: 5px 0px;
+  }
+
+  .nav-input {
+    position: static;
+  }
+
+  .nav-input input {
+    width: 180px;
+  }
+
+  .bg video {
+    mix-blend-mode: multiply;
+    width: 15%;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .bg h1 {
+    font-size: 2rem;
+    color: white;
+    margin: 20px 0px 5px 0px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+
+  .bg p {
+    margin: 5px 0px 10px 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+
+  /* FOR MAIN SECTION */
+
+  .stuff {
+    flex-direction: column;
+  }
+  .name {
+    color: white;
+    margin: 0px 30px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stuff2{
+    background-color: #334756;
+    /* background-image: linear-gradient(0deg, #334756,#fF4C29); */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    grid-gap: 2em;
+    padding: 2em;
+}
+
+.nameimg{
+    background-image: url(img/matarani1.jpg); 
+    background-size: cover;
+    width:  17rem;
+    height: 19rem;
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
+    
+    animation: slider 12s infinite linear;
+  
+  }
+
+  .contactus input{
+    animation: none;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   appearance: none;
+   -moz-animation: none;
+   -webkit-animation: none;
+   outline: none;
+   border: none;
+   border-radius: 0px;
+   padding: 3px 5px;
+   height: 30px;
+   border: 1px solid black;
+   width: 60%;
+   margin: 10px;
+ }
+
+
+}
+
+@media only screen and (max-width: 333px) {
+  .bg video {
+    display: none;
+  }
+
+  .bg h1 {
+    font-size: 2.3rem;
+    color: white;
+    margin: 20px 0px 5px 0px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+
+  .bg p {
+    margin: 5px 0px 10px 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+
+  .stuff2{
+    background-color: #334756;
+    /* background-image: linear-gradient(0deg, #334756,#fF4C29); */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    grid-gap: 2em;
+    padding: 0.2em;
+}
